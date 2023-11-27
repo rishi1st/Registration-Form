@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="icon" href = "day 75 .png">
+</head>
+<body>
+     <!-- Heading  -->
+     <header>
+        <h2>Registration Form</h2>
+     </header>
+     <main>
+        <form action="#">
+            <table>
+                <!-- First Name -->
+                <tr>
+                    <td> <label for="firstname" >First Name</label></td>
+                    <td> <input type="text" name = "FirstName"  maxlength="50" id = "firstname" placeholder = "Sunny . .  . .">
+                     ( Max 50 character Allowed)
+                 </td>
+                </tr>
+                <!-- Last Name  -->
+                <tr>
+                    <td> <label for="lastname" >Last Name</label></td>
+                    <td> <input type="text" name = "lastName"  maxlength="50" id = "lastname" placeholder = "leone. . .">
+                     ( Max 50 character Allowed)
+                 </td>
+                </tr>
+                <!-- Email Id -->
+                <tr>
+                  
+                   <td> <label for="emailId" >Email ID</label></td>
+                   <td> <input type="email" name = "emailId"  id = "emailId" placeholder = "sunnyleone@gmail.com">
+                    ( Max 50 character Allowed)
+                </td>
+                
+                </tr>
+                <!-- Mobile number -->
+                <tr>
+                  
+                   <td> <label for="num" >Mobile Number</label></td>
+                   <td> <input type="number" name = "number"  id = "num" placeholder = "8340XXXXXX">
+                    ( Max 10 digit Allowed)
+                </td>
+                </tr>
+                <!-- Gender -->
+                <tr>
+                <td><label for="gen">Gender</label></td>
+                <td><input type="radio" id = "gen" name = "same">Male <input type="radio" id = "gen" name = "same">Female</td>
+                </tr>
+                <!-- Date of Birth -->
+              <tr>
+                            <!-- day -->
+                       <td><label for="dob">Date of Birth (DOB) </label></td>
+                       <td><select name="day" id="dob">
+                        <option value="day">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                       </select>
+                       <!-- month -->
+                       <select name="day" id="dob">
+                        <option value="-1">Month</option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                        </select>
+                        <!-- Year -->
+                        <select name="year" id="dob">
+                            <option value="-1">Year</option>
+                            <option value="1">1990</option>
+                            <option value="2">1991</option>
+                            <option value="3">1992</option>
+                            <option value="4">1993</option>
+                            <option value="5">1994</option>
+                            <option value="6">1995</option>
+                            <option value="7">1996</option>
+                            <option value="8">1997</option>
+                            <option value="9">1998</option>
+                            <option value="10">1999</option>
+                            <option value="11">2000</option>
+                            <option value="12">2001</option>
+                            <option value="13">2002</option>
+                            <option value="14">2003</option>
+                            <option value="15">2004</option>
+                            <option value="16">2005</option>
+                            <option value="17">2006</option>
+                            <option value="18">2007</option>
+                            <option value="19">2008</option>
+                            <option value="20">2009</option>
+                        </select>
+                    </td>
+              </tr>
+              <tr>
+                <!-- Address -->
+                <td><label for="Address">Address</label></td>
+                <td><textarea name="Add" id="Address" cols="40" rows="8" placeholder="Write Something . . . "></textarea></td>
+              </tr>
+              <!-- City -->
+               <tr>
+                <td> <label for="cityname" >City</label></td>
+                <td> <input type="text" name = "city"  maxlength="40" id = "cityname" placeholder = "Varanasi">
+                 ( Max 50 character Allowed)
+             </td>
+               </tr>
+               <!-- Pin Code -->
+               <tr>
+                <td> <label for="pincode" >Pin Code</label></td>
+                <td> <input type="text" name = "pincode"  maxlength="50" id = "pincode" placeholder = "XXXXXX">
+                 ( Max 6 numbers Allowed)
+             </td>
+               </tr>
+               <!--       State        -->
+               <tr>
+                <td> <label for="state" >State</label></td>
+                <td> <input type="text" name = "state"  maxlength="50" id = "state" placeholder = "Bihar">
+                 ( Max 50 character Allowed)
+             </td>
+               </tr>
+                 <!--          Country        -->
+                 <tr>
+                    <td> <label for="country" >Country</label></td>
+                    <td> <input type="text" name = "country"  maxlength="50" id = "country" placeholder = "India">
+                     ( Max 50 character Allowed)
+                 </td>
+                 </tr>
+                 <!--       Hobbies         -->
+                 <tr>
+                    <td><b>Hobbies</b></td>
+                    <td><input type="radio" name = "same"> Drawing <input type="radio" name = "same">Singing 
+                        <input type="radio" name = "same">Dancing <input type="radio" name = "same">Sketching <br>
+                    <input type="radio" name = "same">Others<input type="text" placeholder="Ex:- Teaching .  . ">
+                    ( Max 50 character Allowed)</td>
+                 </tr>
+                 <tr>
+                    <!-- Qualification -->
+                    <td><label for="qua">Qualification</label></td>
+                    <td>
+                        <input type="checkbox" value="1" name="qua">High school(10th)
+                        <br>
+                         <input type="checkbox" value="2" name="qua">Higher school(12th)
+                        <br>
+                        <input type="checkbox"  value="3" name="qua">Graduation(Bachelors)
+                        <br>
+                        <input type="checkbox" value="4" name="qua">Post Graduations(Masters)
+                        <br>
+                        <input type="checkbox" value="5" name="qua">PhD
+                    </td>
+                </tr>
+                <!--  course  -->
+                <tr>
+                    <td><strong>Courses <br> Applied For</strong></td>
+                    <td>
+                        <input type="radio" name = "same">BCA( Bachelor of Computer Application) <br>
+                        <input type="radio"  name = "same">B.Com(Bachelor of Commerce) <br>
+                        <input type="radio"  name = "same">B.Sc(Bachelor of Science) <br>
+                         <input type="radio"  name = "same">BA(Bachelor of Art) <br>
+                        <input type="radio"  name = "same"> MCA(Master of Computer Application) <br>
+                        <input type="radio"  name = "same"> M.Com(Master of Commerce) <br>
+                        <input type="radio"  name = "same"> M.Sc(Master of Science) <br>
+                        <input type="radio"  name = "same">M.A(Master of Art)
+                    </td>
+                </tr>
+            </table>
+            <!-- button  -->
+            <div class="button">
+                <input type="submit" id  = "btn" value="Submit">
+            <input type="reset" id = "btn" value="Reset">
+            </div>
+        </form>
+     </main>
+</body>
+</html>
